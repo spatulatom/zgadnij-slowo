@@ -78,7 +78,12 @@ export default function VirtualKeyboard({
         layoutName="default"
         //   onChange={onChange}
         onKeyPress={onKeyPress}
+        display= {{
+          '{bksp}': 'Usuń literkę',
+          '{enter}': 'Zatwierdź wyraz',}}
+        
         layout={{
+      
           default: [
             'ą ć ę ł ń ó ś ź ż',
             `${q} w e r t y u i o p`,

@@ -203,7 +203,7 @@ export default function Game() {
         onClick={startNewGame}
         className="focus:disabled p-2 mt-8 bg-gray-500 rounded-sm hover:bg-gray-600 z-30 relative transition duration-500 "
       >
-        Nowy wyraz
+        Nowa Wyraz
       </button>
       <button
         onClick={modalHandler}
