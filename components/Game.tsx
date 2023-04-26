@@ -174,9 +174,12 @@ export default function Game() {
         Click
       </p> */}
       {gameOver ? (
-        <p className="p-4">
-          Gratulacje!! Szukany wyraz to: {solution}
+        <>
+        <p className="p-4 pb-0 uppercase">
+          Gratulacje wygrnaej!! 
         </p>
+        <p className='pb-4'>Szukany wyraz to: {solution.toUpperCase()}</p>
+        </>
       ) : (
         ''
       )}
