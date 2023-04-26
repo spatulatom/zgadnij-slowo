@@ -14,11 +14,11 @@ export default function Home() {
 
         <Game />
         <a
-          href="https://www.nytimes.com/games/wordle/index.html"
+          href="https://literalnie.fun/"
           target="_blank"
           className="font-mono font-bold mt-20"
         >
-          * Kliknij tutaj żeby zobaczyć orginalną wersję gry.
+          * Kliknij tutaj żeby zobaczyć orginalną grę.
         </a>
       </div>
     </main>
