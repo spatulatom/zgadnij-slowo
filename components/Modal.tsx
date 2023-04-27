@@ -11,15 +11,15 @@ export default function Modal({ modalHandler }: props) {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="relative z-51 bg-black"
+        className="relative z-51 bg-black mx-2" 
       >
         <div
-        
-          className="absolute rounded-md left-0 right-0 top-[-50px] border-t py-3 bg-black text-base px-2"
+        onClick={modalHandler}
+          className="absolute rounded-md  right-0 top-[-50px] border-t py-3 bg-black text-base px-2"
         >
-          Załóżmy że wyrazem do odgadnięcia jest: 'MALWA'
+          Zamknij
         </div>
-        <Image width={500} height={500} src="/howtoplay.png" alt="How to play" />
+        <Image width={500} height={500} src="/za.png" alt="How to play" />
         <div
         
           className="absolute rounded-md left-0 h-14 right-0 bottom-[-50px] border-b py-3 bg-black text-base px-2"
